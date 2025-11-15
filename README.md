@@ -4,6 +4,7 @@ I have rewritten my HTML, script and CSS to include the bootsrap chanmges that I
 Overall the main changes that bootstrap has made cam be seen with the changes made to the original webpages and the new webpages. 
 In the new main webpage the display is different as it is now now in colums and also the links page is also different with links tpo actual third party sites.
 
+Below is my original HTML code and the new code with bootstrap 
 
 
 # Bootstrap Guide for Beginners
@@ -37,7 +38,7 @@ This loads Bootstrap's CSS. The CDN thing just means we're loading it from the i
 ```
 This loads Bootstrap's JavaScript. You need this for things like the mobile menu to work.
 
-## Bootstrap Components We Used
+## Bootstrap Components I Used
 
 ### 1. Navbar (Navigation Bar)
 
@@ -256,4 +257,4 @@ Result: Site works on any device without writing a bunch of responsive CSS by ha
 - Bootstrap Examples: https://getbootstrap.com/docs/5.3/examples/
 - Look at the HTML comments in your code
 
-That's it. You got this!
+
