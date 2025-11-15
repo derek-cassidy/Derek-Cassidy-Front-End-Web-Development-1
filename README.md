@@ -760,35 +760,38 @@ No. As long as style.css comes after the Bootstrap link, your styles win when th
 **Do I have to memorize all these classes?**
 Definitely not. Just keep the Bootstrap docs open: https://getbootstrap.com/docs/5.3/
 
-**What's the most important thing?**
-The grid system. Seriously, if you get how `row` and `col-*` work, you're good.
+The changes made allowed for the grid design like `row` and `col-*` and it looks good
+
 
 **Why does my CSS need to come after Bootstrap?**
 CSS loads top to bottom. If your style.css comes after Bootstrap, your rules override Bootstrap's rules. It's called "specificity" but just remember: your CSS goes last.
 
 ## Quick Summary
 
-We added:
+What I  added:
 - Bootstrap CSS and JS links
 - Bootstrap navbar (with mobile menu)
 - Bootstrap grid system (for responsive layout)
 - Container for centering
 - d-flex for equal height cards
 
-We kept:
-- All your purple gradient styling
-- Your card designs
-- Your colors
+What I kept kept:
+- Purple gradient styling
+- Card designs
+- Colors
 - Everything in style.css
 
 Result: Site works on any device without writing a bunch of responsive CSS by hand.
 
-## If You Get Stuck
+Here are the differences between the new and original webpages after I added bootstrap changes.
 
-<img width="743" height="991" alt="Derek Cassidy Front-end-Web-Development-1 new links page" src="https://github.com/user-attachments/assets/88437659-1cfd-4810-ab28-46cd52d7ef44" />
-<img width="521" height="729" alt="Derek Cassidy Front-end-Web-Development original main page" src="https://github.com/user-attachments/assets/99de9f50-7225-4c99-8ff3-fa3b1189ab01" />
-<img width="743" height="960" alt="Derek Cassidy Front-end-Web-Development original links page" src="https://github.com/user-attachments/assets/ff06d519-ecad-416b-b29a-6dd6239bf75f" />
 <img width="751" height="779" alt="Derek Cassidy Front-end-Web-Development-1 new main page" src="https://github.com/user-attachments/assets/11c180d4-21f6-4666-9413-eed0eb50b535" />
+<img width="521" height="729" alt="Derek Cassidy Front-end-Web-Development original main page" src="https://github.com/user-attachments/assets/99de9f50-7225-4c99-8ff3-fa3b1189ab01" />
+<img width="743" height="991" alt="Derek Cassidy Front-end-Web-Development-1 new links page" src="https://github.com/user-attachments/assets/88437659-1cfd-4810-ab28-46cd52d7ef44" />
+<img width="743" height="960" alt="Derek Cassidy Front-end-Web-Development original links page" src="https://github.com/user-attachments/assets/ff06d519-ecad-416b-b29a-6dd6239bf75f" />
+
+
+
 
 
 
