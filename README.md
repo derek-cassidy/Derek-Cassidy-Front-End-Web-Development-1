@@ -620,11 +620,11 @@ What the different navbar classes do.....
 - `container` - centers everything and adds some padding
 - `ms-auto` - pushes the nav links to the right side
 
-### 2. Grid System (Layout)
+The grid system layout was also adjusted 
 
 This is probably the most useful part of Bootstrap. It divides your page into 12 columns and lets you decide how many columns each item takes up.
 
-**Before:**
+Before the grid system was modified 
 ```html
 <div class="timeline-item">
     <h3>Ancient Times</h3>
@@ -632,7 +632,7 @@ This is probably the most useful part of Bootstrap. It divides your page into 12
 </div>
 ```
 
-**After:**
+After the grid system was modified 
 ```html
 <div class="row">
     <div class="col-md-6 mb-4 d-flex">
@@ -644,13 +644,13 @@ This is probably the most useful part of Bootstrap. It divides your page into 12
 </div>
 ```
 
-**What the classes do:**
+What the grod system classes do  
 - `row` - creates a horizontal row that holds columns
 - `col-md-6` - takes up 6 out of 12 columns (50% width) on medium screens and up
 - `mb-4` - margin-bottom spacing
 - `d-flex` - makes cards in the same row have equal height (so one card doesn't look taller than the other)
 
-**How the grid math works:**
+How the gid works
 - Bootstrap uses 12 columns total
 - `col-md-6` = 6/12 = 50% width = 2 cards per row
 - `col-md-4` = 4/12 = 33% width = 3 cards per row
@@ -658,7 +658,7 @@ This is probably the most useful part of Bootstrap. It divides your page into 12
 
 The "md" part means it only kicks in on medium screens (tablets) and larger. On phones, everything stacks to full width automatically.
 
-### 3. Container
+Containers
 
 ```html
 <div class="container">
@@ -666,13 +666,12 @@ The "md" part means it only kicks in on medium screens (tablets) and larger. On 
 </div>
 ```
 
-**What it does:**
+What the container does
 - Centers your content on the page
 - Adds padding on the sides
 - Stops content from stretching too wide on big screens (nobody wants to read text that goes across a 27" monitor)
 
-### 4. Spacing Classes
-
+spacing classes
 Bootstrap has shorthand classes for adding margins and padding without writing custom CSS:
 
 - `mb-4` = margin-bottom
@@ -683,89 +682,59 @@ Bootstrap has shorthand classes for adding margins and padding without writing c
 
 The numbers go from 0 to 5 (0 = no space, 5 = lots of space)
 
-## What Actually Changed in Your Code
+What has actually changed in my code
 
-### index.html:
+index.html
 
-1. **Navbar** - Added Bootstrap navbar classes so it collapses into a hamburger menu on phones
-2. **Grid layout** - Wrapped cards in `row` and `col-md-6` classes so you get 2 cards per row on tablets/desktops, and they stack on phones
-3. **Equal height cards** - Added `d-flex` so cards in the same row are the same height (looks way better)
-4. **Container** - Wrapped everything in a container for proper centering and spacing
-5. **Kept your styling** - All your purple gradient and custom colors still work since style.css loads after Bootstrap
+1. Navbar - Added Bootstrap navbar classes so it collapses into a hamburger menu on phones
+2. Grid layout- Wrapped cards in `row` and `col-md-6` classes so you get 2 cards per row on tablets/desktops, and they stack on phones
+3. Equal height cards - Added `d-flex` so cards in the same row are the same height (looks way better)
+4. containers - Wrapped everything in a container for proper centering and spacing
+5. My styling was kept as I did not want to create extra work - All your purple gradient and custom colors still work since style.css loads after Bootstrap
 
-### links.html:
+links.html
 
-1. **Same navbar** - Used the exact same Bootstrap navbar for consistency
-2. **Grid layout** - Used `col-md-6` so link categories display 2 per row on tablets and up, single column on phones
-3. **Equal heights** - Same `d-flex` trick so the cards match heights
-4. **Kept all your styling** - Your link card styles still apply
+1. Same navbar - Used the exact same Bootstrap navbar for consistency
+2. Grid layout- Used `col-md-6` so link categories display 2 per row on tablets and up, single column on phones
+3. Equal heights - Same `d-flex` trick so the cards match heights
+4. Same styling - Your link card styles still apply
 
-## Important Bootstrap Stuff to Know
+What I learnt about bootstrap and the common classes it uses with decriptions 
 
-### Screen Size Breakpoints
-
-Bootstrap changes your layout based on screen width. Here's what the abbreviations mean:
-
-- `sm` = small (576px+) - phones in landscape
-- `md` = medium (768px+) - tablets
-- `lg` = large (992px+) - laptops
-- `xl` = extra large (1200px+) - big desktops
-
-So `col-md-6` means "on tablets and bigger, take up 6 columns. On phones, take up full width."
-
-### Common Classes You'll Use
-
-**Layout stuff:**
+Layout
 - `container` - centers and constrains content width
 - `row` - holds columns
 - `col-md-6` - column that's half width on medium screens and up
 - `d-flex` - makes items in a row the same height
 
-**Navbar stuff:**
+Navbar
 - `navbar` - makes a navbar
 - `navbar-brand` - your site name/logo
 - `nav-link` - links in the navbar
 - `navbar-toggler` - the mobile hamburger button
 
-**Spacing shortcuts:**
+Spacing shortcuts
 - `mb-4` - margin bottom
 - `mt-3` - margin top
 - `p-5` - padding
 - `ms-auto` - pushes to the right
 
-**Text alignment:**
+Test allignment
 - `text-center` - center text
 - `text-start` - left align
 - `text-end` - right align
 
-## Testing It Out
+How I tested the new wabpage out to make sure that bootstrap works 
 
-Try this to see Bootstrap working:
-
-1. Open http://localhost:8000 in your browser
+1. I OpenED http://localhost:8000 in my browser
 2. Drag the browser window to make it narrower
-3. Watch the navbar collapse into a hamburger menu
-4. Watch the cards stack vertically on narrow screens
-5. Make it wider again and see cards go side-by-side
-
-## Questions You Might Have
-
-**Do I need to download Bootstrap files?**
-Nope! The CDN links pull it from the internet. Easy.
-
-**Will Bootstrap break my custom CSS?**
-No. As long as style.css comes after the Bootstrap link, your styles win when there's a conflict.
-
-**Do I have to memorize all these classes?**
-Definitely not. Just keep the Bootstrap docs open: https://getbootstrap.com/docs/5.3/
-
-The changes made allowed for the grid design like `row` and `col-*` and it looks good
+3. Watched the navbar collapse into a hamburger menu
+4. Watched the cards stack vertically on narrow screens
+5. Made it wider again and seen cards go side-by-side
 
 
-**Why does my CSS need to come after Bootstrap?**
-CSS loads top to bottom. If your style.css comes after Bootstrap, your rules override Bootstrap's rules. It's called "specificity" but just remember: your CSS goes last.
 
-## Quick Summary
+Summary of what changes I made with bootstrap additions
 
 What I  added:
 - Bootstrap CSS and JS links
@@ -780,7 +749,6 @@ What I kept kept:
 - Colors
 - Everything in style.css
 
-Result: Site works on any device without writing a bunch of responsive CSS by hand.
 
 Here are the differences between the new and original webpages after I added bootstrap changes.
 New main page followed by the original main page, then the new links page followed by the original links page.
@@ -798,6 +766,5 @@ New main page followed by the original main page, then the new links page follow
 
 
 
-- Look at the HTML comments in your code
 
 
