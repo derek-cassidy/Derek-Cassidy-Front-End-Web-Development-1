@@ -1,6 +1,6 @@
-# Derek-Cassidy-Front-End-Web-Development-1
-Git hub respository for Coimmunication history website with active links 
-I have rewritten my index.html and links.html code with bootsrtap and thois has helped to change the script.js and style.css codes as they can be rewritten by bootstrap.
+Derek-Cassidy-Front-End-Web-Development-1-with bootstrap
+Git hub respository for Communication history website with active links 
+I have rewritten my index.html and links.html code with bootsrtap and this has helped to change the script.js and style.css codes as they can be rewritten by bootstrap.
 
 Below is the bootstrap code I used and where it fitted into my index.html and links.html code
 Overall the main changes that bootstrap has made cam be seen with the changes made to the original webpages and the new webpages. 
