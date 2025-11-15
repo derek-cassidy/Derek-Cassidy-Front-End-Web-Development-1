@@ -541,9 +541,7 @@ footer {
     }
 }
 
-# Bootstrap Guide for Beginners
 
-## What is Bootstrap?
 
 Bootstrap is basically a big collection of pre-written CSS and JavaScript that makes building websites way easier. Instead of writing all your own CSS for buttons, navigation bars, grids, etc., you just use Bootstrap's classes and it does the work for you.
 
@@ -786,6 +784,15 @@ We kept:
 Result: Site works on any device without writing a bunch of responsive CSS by hand.
 
 ## If You Get Stuck
+
+<img width="743" height="991" alt="Derek Cassidy Front-end-Web-Development-1 new links page" src="https://github.com/user-attachments/assets/88437659-1cfd-4810-ab28-46cd52d7ef44" />
+<img width="521" height="729" alt="Derek Cassidy Front-end-Web-Development original main page" src="https://github.com/user-attachments/assets/99de9f50-7225-4c99-8ff3-fa3b1189ab01" />
+<img width="743" height="960" alt="Derek Cassidy Front-end-Web-Development original links page" src="https://github.com/user-attachments/assets/ff06d519-ecad-416b-b29a-6dd6239bf75f" />
+<img width="751" height="779" alt="Derek Cassidy Front-end-Web-Development-1 new main page" src="https://github.com/user-attachments/assets/11c180d4-21f6-4666-9413-eed0eb50b535" />
+
+
+
+
 
 - Bootstrap Docs: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 - Bootstrap Examples: https://getbootstrap.com/docs/5.3/examples/
